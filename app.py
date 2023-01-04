@@ -1,3 +1,4 @@
+''' Starting point of the app '''
 from flask import Flask, jsonify
 
 
