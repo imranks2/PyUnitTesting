@@ -6,11 +6,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    ''' Index '''
     return jsonify({'hello': 'world'})
 
 
 @app.route('/about')
 def about():
+    ''' About '''
     return jsonify({'About': 'Us'})
 
 
